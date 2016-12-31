@@ -1,0 +1,13 @@
+@charset 'utf8';
+.bc(@c:#fff){
+	background-color: @c;
+}
+@fs:14px;	//全局变量
+.box{
+	@w:100px;
+	width: @w;
+	height: @w;
+	float: left;
+	.bc(red);
+	font-size: @fs - 2px;	//注意变量名和运算符之间的空格,'px'可省略
+}

@@ -1,0 +1,44 @@
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: '微软雅黑';
+		font-size: 16px;
+	}
+	ul,li{
+		list-style: none;
+	}
+	.bd-search{
+		width: 410px;
+		height: 40px;
+		position: relative;
+		margin: 100px auto;
+	}
+	#bd-search-input{
+		width: 300px;
+		height: 40px;
+		padding-left: 3px;
+	}
+	#bd-search-btn{
+		padding: 0 15px;
+		width: 100px;
+		height: 44px;
+	}
+	#bd-search-sug{
+		position: absolute;
+		top: 44px;
+		display: none;
+		border: 1px solid #ccc;
+	}
+	#bd-search-sug li a{
+		font-weight: bold;
+		padding-left: 3px;
+		color: #000;
+		text-decoration: none;
+		display: block;
+		width: 302px;
+		line-height: 25px;
+		font-size: 14px;
+	}
+	 #bd-search-sug li a:hover{
+		background-color: #ccc;
+	}

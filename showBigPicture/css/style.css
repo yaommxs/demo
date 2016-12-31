@@ -1,0 +1,41 @@
+/*注意此大小图片像素放大比例需保持一致*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.small{
+	width: 300px;
+	height: 300px;
+	position:relative;
+	left: 100px;
+	top: 100px;
+	float: left;
+	margin-left: 100px;
+}
+.small img{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+}
+.mark{
+	width: 150px;
+	height: 150px;
+	opacity: 0.5;
+	background-color: #fff;
+	position: absolute;
+	display: none;
+}
+.big{
+	width: 500px;
+	height: 500px;
+	position:relative;
+	left: 150px;
+	top: 100px;
+	overflow: hidden;
+	display: none;
+}
+.big img{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+}

@@ -1,0 +1,196 @@
+/*公共样式*/
+*{margin: 0;padding: 0;}
+body{background-color: #F5F5F5;font-family:'微软雅黑';}
+.wrap{width: 1240px;margin: 0 auto;}
+
+ul,li{list-style: none;}
+a{text-decoration: none;color: #333444;}
+a:hover{color: #299fff;}
+
+
+/*首页样式*/
+
+/*导航开始*/
+.header{width: 100%;height: 80px;background: #fff;border-top: 4px solid #333444;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);position: fixed;top: 0;z-index: 2;}
+
+.logo{background: url(../img/icon/logo.png) no-repeat;
+    background-size: 170px 50px;
+    float: left;
+    margin-top: 15px;
+    display: block;
+    width: 170px;
+    height: 50px;
+	}
+.nav{width: 600px;height: 70px;padding-left: 130px;float: left;line-height: 70px;}
+.nav li{float: left;}
+.nav a{padding: 26px 26px 40px;}
+.a-on{color: #299fff;background: url(../img/icon/top-hover.png) no-repeat top center;}
+.login{float: right;padding: 20px 0;}
+.wechat{background: url(../img/icon/wechat.png) no-repeat;margin-right: 10px;}
+.sina{background: url(../img/icon/sina.png) no-repeat;}
+.wechat,.sina{background-size: 41px 41px;display: inline-block;width: 41px;height: 41px;}
+.wechat:hover{background: url(../img/icon/wechat-on.png) no-repeat;background-size: 41px 41px;}
+.sina:hover{background: url(../img/icon/sina-on.png) no-repeat;background-size: 41px 41px;}
+
+
+.nav-con{width: 100%;height: 180px;position: absolute;top: 80px;left:0;background: #34A2F6;display: none;}
+.nav-con-left{float: left;}
+.nav-con-left h3{color: #fff;font-weight: normal;line-height: 80px;}
+.nav-con-left p{color: #CCE1F1 ;font-size:12px;line-height: 20px;}
+.nav-con-right{height: 180px;float: right;margin-right: 300px;}
+.nav-con-right a{width: 100px;height:100px;display: inline-block;margin: 0 20px;text-align: center;}
+.nav-con-right span{color: #fff;margin-top:85px; display: block;}
+.three-d{background: url(../img/icon/3d.png) no-repeat center 30px;background-size: 50px 90px;}
+.three-d:hover{background: url(../img/icon/3d-on.png) no-repeat center 30px;background-size: 50px 90px;}
+.two-d{background: url(../img/icon/2d.png) no-repeat center 30px;background-size: 50px 90px;}
+.two-d:hover{background: url(../img/icon/2d-on.png) no-repeat center 30px;background-size: 50px 90px;}
+.pc{background: url(../img/icon/wifi.png) no-repeat center 45px;background-size: 85px 60px;
+	position: relative;}
+.pc:hover{background: url(../img/icon/wifi-on.png) no-repeat center 45px;background-size: 85px 60px;}
+.pc-free{background: url(../img/icon/free.png) no-repeat;background-size: 36px 36px;
+	position: absolute;width: 36px;height: 36px;top: 25px;right: 10px;}
+
+
+.android{background: url(../img/icon/android.png) no-repeat center 30px;background-size: 50px 90px;}
+.android:hover{background: url(../img/icon/android-on.png) no-repeat center 30px;background-size: 50px 90px;}
+.iphone{background: url(../img/icon/iphone.png) no-repeat center 30px;background-size: 50px 90px;}
+.iphone:hover{background: url(../img/icon/iphone-on.png) no-repeat center 30px;background-size: 50px 90px;}
+.scan{background: url(../img/icon/scan.png) no-repeat center 30px ;background-size: 90px 90px;}
+/*导航结束*/
+
+
+/*轮播开始*/
+.banner{width: 1349px;height:460px;position: relative;top: 80px;margin: 0 auto;}
+.banner-pic{width: 100%;position: absolute;display: none;}
+.banner-video{width:460px; height:300px;position: absolute;top:50%;margin-top: -180px;left: 200px;border: 6px solid #9EF2FF;border-radius: 8px;}
+.banner-spic{position: absolute;top: 50%;margin-top: -120px;right: 110px;}
+.banner-pre,.banner-next{position: absolute;width: 32px;height: 80px;
+top:50%;display: block;margin-top: -40px;}
+.banner-pre{background: url(../img/icon/pre.png) no-repeat center center;left:50px;}
+.banner-next{background: url(../img/icon/next.png) no-repeat center center;right:50px;}
+.banner-pre:hover{background: url(../img/icon/pre-on.png) no-repeat center center;left:50px;}
+.banner-next:hover{background: url(../img/icon/next-on.png) no-repeat center center;right:50px;}
+.banner img {width: 100%;}
+.banner-index{position: absolute;width: 160px;height: 6px;bottom: 40px;left:50%;margin-left: -75px;}
+.banner-index li {background:#000;width: 25px;height: 6px;float: left;margin-right: 6px;
+	opacity:0.3;filter: alpha(opacity=30);border-radius: 2px;cursor: pointer;}
+.banner-index li:hover {background:#fff;
+	opacity:0.7;filter: alpha(opacity=70);cursor: pointer;}
+.banner-index-on{background:#fff !important;opacity:1!important;
+	filter: alpha(opacity=100) !important;cursor: pointer;}
+/*轮播结束*/
+
+
+/*广告开始*/
+.ad{height: 160px;margin-top: 110px;}
+.ad li{width: 300px;height: 160px;float: left;margin-right: 13px;border-radius: 2px;text-align: center;position: relative;}
+.ad li img{width: 80px;position: absolute;bottom: 0;margin-left: -40px;}
+.ad li.ad3 img{width: 120px;position: absolute;bottom: 0;margin-left: -60px;}
+.ad li.ad1{
+  background: -webkit-linear-gradient(#5845D0, #8773FF); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#5845D0, #8773FF); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#5845D0, #8773FF); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#5845D0, #8773FF); /* 标准的语法 */
+}
+.ad li.ad2{
+  background: -webkit-linear-gradient(#1D9C6B, #14C17E); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#1D9C6B, #14C17E); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#1D9C6B, #14C17E); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#1D9C6B, #14C17E); /* 标准的语法 */
+}
+.ad li.ad3{
+  background: -webkit-linear-gradient(#EA9A06, #FFBB22); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#EA9A06, #FFBB22); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#EA9A06, #FFBB22); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#EA9A06, #FFBB22); /* 标准的语法 */
+}
+.ad li:last-child{
+	margin-right:0;
+  background: -webkit-linear-gradient(#EE3131, #FD4E4E); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#EE3131, #FD4E4E); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#EE3131, #FD4E4E); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#EE3131, #FD4E4E); /* 标准的语法 */
+}
+.ad li span{color: #fff;font-size: 18px;line-height: 50px;}
+.ad li p{color: #fff;font-size: 12px;line-height: 30px;}
+.ad2 a,.ad3 a{display: block;width: 300px;height: 160px;}
+.ad4 a{color: #E1E1E1;font-size: 10px;}
+.ad4 a:hover{color: #fff;}
+/*广告结束*/
+
+/*手机wifi开始*/
+.wifi-free{height: 460px;border-radius: 4px;margin-top: 30px;background: #fff;}
+.wifi-free-left{width: 240px;height: 380px;background: #5697F8;float: left;text-align: center;}
+.wifi-free-left span{font-size: 20px;color: #fff;display: block;padding-top: 40px;}
+.wifi-free-left p{font-size: 12px;color: #fff;padding: 20px 0 50px;}
+.wifi-free-right{width: 1000px;height: 380px;float: left;}
+.wifi-free-right li{width: 333px;height: 330px;float: left;
+text-align: center;padding-top: 70px;color: #4FAAF7;}
+.wifi-free-right li h2{line-height: 50px;}
+.wifi-free-right li span{color: #666777;font-size: 16px;line-height: 30px;}
+.wifi-free-right li p{color: #888999;font-size: 10px;line-height: 20px;}
+.wifi-free-footer{clear: both;background-color: #E6F2FB;width: 100%;height: 80px;border-bottom: 1px solid #c8dff0;}
+.wifi-free-footer ul{float: right;}
+.wifi-free-footer li{float: left;margin-top: 30px;}
+.wifi-free-footer-more{background-color: #fff !important;color: #4EABF7 !important;}
+.wifi-free-footer-more:hover{background-color: #F2F8FD !important;}
+.wifi-free-footer a{background-color: #4EABF7;padding:4px 30px;border-radius: 2px;border: 1px solid #4EABF7;margin-right: 20px;color: #fff;}
+.wifi-free-footer a:hover{background-color: #64B9FF;}
+/*手机wifi结束*/
+
+/*电脑wifi开始*/
+.wifi-free-left-2{background: url(../img/icon/wifi-free-left-pc.png) no-repeat center center;}
+.wifi-free-2 li{color: #47D6AA;}
+.wifi-free-2 .wifi-free-footer{background-color: #E1F2EC;}
+.wifi-free-2 a{background: #2ACB91;border: 1px solid #2ACB91;}
+.wifi-free-2 a:hover{background-color: #31D79B;}
+.wifi-free-2 .wifi-free-footer-more{color: #2ACB91 !important;}
+.wifi-free-2 .wifi-free-footer-more:hover{background-color: #EBF9F4 !important;}
+/*电脑wifi结束*/
+
+
+/*wifi视频开始*/
+.wifi-video{height:350px;border-radius: 4px;margin-top: 100px;}
+.wifi-video h2{width:100%;height:auto;margin: 0 auto 40px;text-align: center;}
+.wifi-video li{width: 225px;height: 180px;float: left;background: #fff;margin-right: 28px;border-radius: 4px;text-align: center;}
+.wifi-video li:last-child{margin-right: 0;}
+.wifi-video li:hover{box-shadow: 1px 3px 10px #ccc;}
+.wifi-video a{display: block;}
+
+.wifi-video li img{width: 225px;height:auto;border-radius: 4px;}
+.wifi-video span{color: #6F7E94;font-size: 14px;line-height: 30px;}
+
+/*wifi视频结束*/
+
+.wifi-bottom{width: 100%;height: 60px;background: #FFFFFF;
+	border-top: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;}
+.wifi-bottom li{width: 246px;height: 15px;float: left;line-height: 15px;
+margin-top: 20px;border-right: 1px solid #ddd;text-align: center;}
+.wifi-bottom a{display: block;}
+.wifi-bottom li:last-child{border-right:none;}
+.wifi-bottom i{/*background: url(../img/icon/wifi-bottom1.png) no-repeat center center;*/
+width: 23px;height: 25px;display:block;float: left;margin-left: 40px;}
+/*.wifi-bottom li:hover i{background: url(../img/icon/wifi-bottom1-on.png);}*/
+
+
+.wifi-footer{width: 100%;height: 225px;background: #fff;}
+.wifi-footer-left{width: 570px;height: 225px;
+background: url(../img/icon/wifi-footer-left.png) no-repeat 100px 50px ;
+background-size:300px auto;float: left;}
+.wifi-footer-left-download{padding: 100px 0 0 100px;}
+.wifi-footer-left a,.wifi-footer-left a:hover{background-size: 170px 40px;
+	display: block;width: 170px;height: 40px;float: left;margin-right: 30px;}
+.wifi-footer-left1{background: url(../img/icon/wifi-footer-left-android.png) no-repeat;}
+.wifi-footer-left1:hover{background: url(../img/icon/wifi-footer-left-android-on.png) no-repeat;}
+.wifi-footer-left2{background: url(../img/icon/wifi-footer-left-iphone.png) no-repeat;}
+.wifi-footer-left2:hover{background: url(../img/icon/wifi-footer-left-iphone-on.png) no-repeat;}
+
+.wifi-footer-mid{width: 400px;height: 225px;float: left;background:;}
+.wifi-footer-mid p{color: #7A7A7A;font-size: 13px;margin-top: 50px;}
+.wifi-footer-mid li{float: left;}
+.wifi-footer-mid a,.wifi-footer-mid a:hover{background-size: 92px 21px;
+	display: block;width: 92px;height: 21px;float: left;margin-right: 30px;}
+.wifi-footer-mid li a{background: url(../img/icon/footer-qiku.png) no-repeat center center;}
+.wifi-footer-mid li a:hover{background: url(../img/icon/footer-qiku-on.png) no-repeat center center;}
+.gg{width: 50px;height: 50px;background: red;}

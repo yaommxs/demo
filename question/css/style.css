@@ -1,0 +1,96 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+body{
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+}
+input,textarea{
+  text-indent: 0.5em;
+  padding: 5px 0;
+  color: rgb(113, 113, 113);
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  outline-color: rgba(72, 208, 232,0.8);
+  margin: 10px 0;
+  width: 100%;
+}
+.wrap{
+  width: 600px;
+  margin: 0 auto;
+}
+.questionsHead{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(182, 208, 199);
+}
+.questionsHead p{
+  color:rgb(60, 60, 60);
+  font-size: 40px;
+  line-height: 160px;
+  text-align: center;
+}
+.addQuestion{
+  width: 70px;
+  height: 30px;
+  float: right;
+}
+.qTitleInput{
+  height:30px;
+}
+.questionsForm{
+  margin: 10px 0;
+}
+.formBtn{
+  width: 100%;
+  height: 25px;
+}
+.yesBtn{
+  margin: 0 0 10px 20px;
+}
+.yesBtn,.noBtn{
+  float: right;
+  width: 50px;
+  height: 25px;
+}
+.qList{
+  width: 100%;
+  height: 80px;
+  padding: 10px 0;
+  margin: 10px 0;
+  background-color: #F6FBF9;
+}
+.qListl{
+  width: 50px;
+  height: 80px;
+  text-align: center;
+  float: left;
+}
+.qListl span{
+  font-weight: bold;
+  color: #374C45;
+  height: 30px;
+  display: block;
+  line-height: 30px;
+}
+.zan{
+  border-radius: 4px;
+  background-color: #DFEFEA;
+}
+.zan:hover{
+  background-color: #A8CAD4;
+  cursor: pointer;
+}
+.qListl img{
+  width: 25px;
+  height: 25px;
+}
+.qListr{
+  padding-left: 20px;
+  width: 530px;
+  height: 80px;
+  float: left;
+}
+.qDesc{
+  margin-top: 5px;
+  font-size: 14px;
+}

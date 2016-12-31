@@ -1,0 +1,9 @@
+#wrap{
+	width: 80%;
+	margin: 40px auto;
+	position: relative;
+}
+#wrap img{
+	position: absolute;
+	margin-left: 200px;
+}
